@@ -22,29 +22,6 @@ nav div {
     width: calc(100% - 3em);
 }
 
-main {
-    background-color: #292929;
-}
-
-.row {
-    padding: 1em;
-    margin: 0;
-}
-
-.container-buscador {
-    padding: 1em;
-}
-
-.buscador input {
-    display: inline;
-    background-color: #292929;
-    border-radius: 0;
-    border: 0;
-    border-bottom: 1px solid #d4dcdf;
-    color: #fff;
-    width: 50%;
-}
-
 nav .form-control {
     display: inline;
     background-color: #05111eb9;
@@ -55,12 +32,12 @@ nav .form-control {
     width: auto;
 }
 
-.borde {
-    border-bottom: 2px dashed #808080;
+main {
+    background-color: #292929;
 }
 
-.bg-footer {
-    background-color: #ddb516;
+.borde {
+    border-bottom: 2px dashed #808080;
 }
 
 footer {
@@ -82,6 +59,29 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: #292929;
+}
+
+.container-buscador {
+    padding: 1em;
+}
+
+.buscador input {
+    display: inline;
+    background-color: #292929;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d4dcdf;
+    color: #fff;
+    width: 50%;
+}
+
+.row {
+    padding: 1em;
+    margin: 0;
+}
+
+.bg-footer {
+    background-color: #ddb516;
 }
 
 .card {
