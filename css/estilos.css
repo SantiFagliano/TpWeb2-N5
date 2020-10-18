@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    border-bottom: 5px solid #ffce00;
+    background-color: #05111e;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+}
+
+nav img {
+    width: 5em;
+    height: auto;
+}
+
+nav div {
+    width: calc(100% - 3em);
+}
+
+main {
+    background-color: #292929;
+}
+
+.row {
+    padding: 1em;
+    margin: 0;
+}
+
+.container-buscador {
+    padding: 1em;
+}
+
+.buscador input {
+    display: inline;
+    background-color: #292929;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d4dcdf;
+    color: #fff;
+    width: 50%;
+}
+
+nav .form-control {
+    display: inline;
+    background-color: #05111eb9;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d4dcdf;
+    color: #fff;
+    width: auto;
+}
+
+.borde {
+    border-bottom: 2px dashed #808080;
+}
+
+.bg-footer {
+    background-color: #ddb516;
+}
+
+footer {
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 2px;
+    color: #808080;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #808080;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #292929;
+}
+
+.card {
+    border: 1px solid #000;
+}
+
+.fondo {
+    background-color: #666565;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.pantheon {
+    width: 50px;
+    height: auto;
+}
+
+.pantheon1 {
+    width: 30px;
+    height: auto;
+}
+
+.font-x-large {
+    font-size: x-large;
+    color: #000;
+}
+
+.btn-outline-primary {
+    color: #fff!important;
+}
+
+.btn-outline-danger {
+    color: #fff!important;
+}
+
+.text-black {
+    color: #000!important;
+}
+
+.nuevoDios {
+    background-color: #292929;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #d4dcdf;
+    display: inline;
+    width: 100%;
+    padding: .375rem 1.75rem .375rem .75rem;
+    color: #a9a9a9;
+}
+
+.nuevoDios::placeholder {
+    color: #a9a9a9;
+}
+
+.nuevoDiosArchivo {
+    background-color: #292929;
+    border: 0;
+    border-radius: 0;
+    display: inline;
+    width: 100%;
+    padding: .375rem 1.75rem .375rem .75rem;
+    color: #a9a9a9;
+}
+
+.ancho {
+    width: 80%;
+    margin: auto;
+}
+
+.tipoNuevo {
+    width: 20px;
+    height: auto;
+}
+
+.custom-select {
+    color: #a9a9a9;
+}
+
+.btn-nuevo {
+    border-radius: 0%;
+    border: 0;
+    border-bottom: 2px solid #15922691;
+    color: #15922691;
+}
+
+.btn-nuevo:hover {
+    border-radius: 0%;
+    border: 0;
+    border-bottom: 2px solid #159226;
+    color: #159226;
+}
+
+.mostrarDios {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .flex-row {
+        flex-direction: column!important;
+        flex-wrap: wrap!important;
+        align-items: center;
+    }
+    .formulario input {
+        width: 80%;
+    }
+    .centrar {
+        text-align: center;
+    }
+    .informacion {
+        text-align: center;
+    }
+}
