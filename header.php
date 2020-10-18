@@ -1,3 +1,7 @@
+<?php
+require_once ("BaseDeDatos.php");
+require_once ("Consultas.php");
+?>
 <!doctype html>
 <html lang="es">
 
@@ -10,7 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="Recursos/css/bootstrap.min.css">
     <link rel="stylesheet" href="Recursos/css/estilos.css">
-    <script src="js/functions.js"></script>
+    <script src="Recursos/js/functions.js"></script>
 
 
     <title>SmiteDex</title>
