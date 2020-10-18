@@ -8,8 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="Recursos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Recursos/css/estilos.css">
     <script src="js/functions.js"></script>
 
 
@@ -20,7 +20,7 @@
 <header class="">
     <nav class="d-flex flex-row b-3 p-2 justify-content-between">
         <div class="centrar">
-            <a href="index.php"><img src="img/logo.png" alt="Logo"></a>
+            <a href="index.php"><img src="Recursos/img/logo.png" alt="Logo"></a>
         </div>
         <div class="mt-4">
             <form class="formulario d-flex flex-row justify-content-end" action="#">

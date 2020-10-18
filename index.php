@@ -14,14 +14,14 @@
             <article class="row">
                 <div class="col-12 col-md-4 m-auto">
                     <div class="card mb-3 fondo">
-                        <img class="card-img-top" src="img/Neith.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="Recursos/img/dioses/Neith.jpg" alt="Card image cap">
                         <div class="card-body border-top">
                             <h2 class="card-title text-black">1 | Neith</h2>
                             <hr>
-                            <p class="card-text font-x-large"><img src="img/pantheon/egipcio.png" alt=""
+                            <p class="card-text font-x-large"><img src="Recursos/img/pantheon/egipcio.png" alt=""
                                                                    class="pantheon">Egipcian
                             </p>
-                            <p class="card-text font-x-large"><img src="img/tipo/cazador.png" alt="" class="pantheon">Hunter
+                            <p class="card-text font-x-large"><img src="Recursos/img/tipo/cazador.png" alt="" class="pantheon">Hunter
                             </p>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-outline-primary" data-toggle="modal"
