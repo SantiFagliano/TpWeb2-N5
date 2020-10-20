@@ -21,12 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fc22da1-22a5-49d1-92a8-9012a1d0118a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDeDatos.php" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDeDatos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursos/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursos/img/tipo/support.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +79,10 @@
       <updated>1602998561992</updated>
       <workItem from="1602998563072" duration="846000" />
       <workItem from="1603047239596" duration="9849000" />
+      <workItem from="1603136211157" duration="1219000" />
+      <workItem from="1603137474801" duration="5383000" />
+      <workItem from="1603144725038" duration="2412000" />
+      <workItem from="1603223860065" duration="5084000" />
     </task>
     <servers />
   </component>
@@ -101,16 +99,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="168" key="#PHP" timestamp="1602998707752">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="168" key="#PHP/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602998707752" />
-    <state x="-1180" y="280" key="FileChooserDialogImpl" timestamp="1603051557813">
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603144469468">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603144469468" />
+    <state x="-1180" y="280" key="FileChooserDialogImpl" timestamp="1603141670546">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603051557813" />
+    <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603141670546" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603057370475">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -131,15 +134,15 @@
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603051692246" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603057370474" />
-    <state x="-1126" y="448" key="NewPhpFileDialog" timestamp="1603052845944">
+    <state x="-1126" y="448" key="NewPhpFileDialog" timestamp="1603225179069">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1126" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603052845944" />
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602998759563" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1603055550362">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1126" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603225179069" />
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603146408074" />
+    <state x="-1459" y="170" key="SettingsEditor" timestamp="1603137180601">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1459" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603051566768" />
+    <state x="-1459" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603137180601" />
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603055550362" />
     <state x="564" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603056531941">
       <screen x="0" y="0" width="1920" height="1050" />
