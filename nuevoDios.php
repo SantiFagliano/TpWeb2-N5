@@ -5,7 +5,7 @@
             <h3>Agregar un nuevo dios</h3>
         </section>
         <section class="ancho p-2">
-            <form>
+            <form action="agregarDios.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group mb-4">
                     <input type="text" class="nuevoDios text-white" name="nombre" id="nombre"
                            aria-describedby="emailHelp"
@@ -23,32 +23,32 @@
                 <div class="input-group mb-4">
                     <select name="rol" class="custom-select nuevoDios" id="rol">
                         <option selected disabled>Eliga un rol:</option>
-                        <option value="support">Guardian</option>
-                        <option value="guerrero">Guerrero</option>
-                        <option value="cazador">Cazador</option>
-                        <option value="mago">Mago</option>
-                        <option value="asesino">Asesino</option>
+                        <option value="Guardian">Guardian</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Cazador">Cazador</option>
+                        <option value="Mago">Mago</option>
+                        <option value="Asesino">Asesino</option>
                     </select>
                 </div>
 
                 <div class="input-group mb-4">
                     <select name="pantheon" class="custom-select nuevoDios" id="rol">
                         <option selected disabled>Eliga un Panteon:</option>
-                        <option value="arturiano">Arturiano</option>
-                        <option value="celta">Celta</option>
-                        <option value="chino">Chino</option>
-                        <option value="egipcio">Egipcio</option>
-                        <option value="eslavo">Eslavo</option>
-                        <option value="grandesAntiguos">Grandes Antiguos</option>
-                        <option value="griego">Griego</option>
-                        <option value="hindu">Hindu</option>
-                        <option value="japones">Japones</option>
-                        <option value="maya">Maya</option>
-                        <option value="nordico">Nordico</option>
-                        <option value="polinesio">Polinesio</option>
-                        <option value="romano">Romano</option>
-                        <option value="vudu">Vudu</option>
-                        <option value="yoruba">Yoruba</option>
+                        <option value="Arturiano">Arturiano</option>
+                        <option value="Celta">Celta</option>
+                        <option value="Chino">Chino</option>
+                        <option value="Egipcio">Egipcio</option>
+                        <option value="Eslavo">Eslavo</option>
+                        <option value="GrandesAntiguos">Grandes Antiguos</option>
+                        <option value="Griego">Griego</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Japones">Japones</option>
+                        <option value="Maya">Maya</option>
+                        <option value="Nordico">Nordico</option>
+                        <option value="Polinesio">Polinesio</option>
+                        <option value="Romano">Romano</option>
+                        <option value="Vudu">Vudu</option>
+                        <option value="Yoruba">Yoruba</option>
                     </select>
                 </div>
                 <div class="form-group mb-4">
