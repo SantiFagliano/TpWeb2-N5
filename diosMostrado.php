@@ -3,14 +3,14 @@
     <main>
         <section class="row justify-content-center">
             <article class="col-12 col-md-6 text-center">
-                <img src="img/Neith.jpg" alt="" class="mostrarDios">
+                <img src="Recursos/img/dioses/Neith.jpg" alt="" class="mostrarDios">
             </article>
             <article class="col-12 col-md-6 pt-2 ">
                 <h2 class="text-white border-bottom p-2 informacion">Neith</h2>
                 <p class="card-text text-white"><strong>*ID:</strong> 1</p>
-                <p class="card-text text-white"><strong>*Pantehon: </strong><img src="img/pantheon/egipcio.png" alt=""
+                <p class="card-text text-white"><strong>*Pantehon: </strong><img src="Recursos/img/pantheon/egipcio.png" alt=""
                                                                                  class="pantheon1">Egipcian</p>
-                <p class="card-text text-white"><strong>*Rol:</strong> <img src="img/tipo/cazador.png" alt=""
+                <p class="card-text text-white"><strong>*Rol:</strong> <img src="Recursos/img/tipo/cazador.png" alt=""
                                                                             class="pantheon1">Hunter</p>
                 <p class="card-text text-white"><strong>*Descripcion:</strong> Lorem ipsum dolor, sit amet consectetur
                     adipisicing elit. Esse consequuntur cum quos fuga voluptatibus dicta, nam culpa eos dolorum non,
