@@ -5,7 +5,7 @@
             <h3>Agregar un nuevo dios</h3>
         </section>
         <section class="ancho p-2">
-            <form action="agregarDios.php" method="POST" enctype="multipart/form-data">
+            <form action="agregarDios.php" method="POST" enctype="multipart/form-data" name="form" id="form">
                 <div class="form-group mb-4">
                     <input type="text" class="nuevoDios text-white" name="nombre" id="nombre"
                            aria-describedby="emailHelp"
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="input-group mb-4">
-                    <select name="pantheon" class="custom-select nuevoDios" id="rol">
+                    <select name="pantheon" class="custom-select nuevoDios" id="pantheon">
                         <option selected disabled>Eliga un Panteon:</option>
                         <option value="Arturiano">Arturiano</option>
                         <option value="Celta">Celta</option>
@@ -58,6 +58,9 @@
                     <p class="text-white"><span id="caracteres"></span>/1000</p>
                 </div>
                 <button type="submit" class="btn btn-nuevo">Subir nuevo Dios</button>
+                <div id="mensaje" class="error">
+
+                </div>
             </form>
         </section>
     </main>
