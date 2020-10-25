@@ -11,7 +11,11 @@ descripcion text not null,
 primary key (id)
 );
 insert into Dios (id, nombre, pantheon, rol, url_imagen, descripcion)
-values (1,"Neith","Egipcio", "Cazador", "ejemplo", "descripcion"),
-(2,"Ymir","Nordico", "Guardian", "ejemplodos", "descripciondos");
+values (1,"Neith","Egipcio", "Cazador", "Neith.jpg", "descripcion"),
+(2,"Baco","Romano", "Guardian", "Baco.jpg", "Baco esta buenardo"),
+(3,"Izanami","Japones", "Cazador", "Izanami.jpg", "Iza la biza"),
+(4,"Kukulkan","Maya", "Mago", "Kukulkan.jpg", "Kuku el klan"),
+(5,"Scylla","Griego", "Mago", "Scylla.jfif", "Scylla esta op"),
+(6,"Ymir","Nordico", "Guardian", "Ymir.jpg", "Ymir sirve de todo");
 
 select * from Dios;

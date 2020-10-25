@@ -10,11 +10,11 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
         $panteon = $row["pantheon"];
         $idDios = $row["id"];
         $rol = $row["rol"];
-
+        $img = $row["url_imagen"];
         echo '
             <div class="col-12 col-md-4 m-auto">
                     <div class="card mb-3 fondo">
-                        <img class="card-img-top" src="Recursos/img/dioses/' . $nombre . '.jpg" alt="' . $nombre . '">
+                        <img class="card-img-top" src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '">
                         <div class="card-body border-top">
                             <h2 class="card-title text-black">' . $idDios . ' | ' . $nombre . '</h2>
                             <hr>
@@ -145,10 +145,5 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
 
         ';
     }
-    function borrarDios($conexion)
-    {
-        $sql = "insert into Dios (id, nombre, pantheon, rol, url_imagen, descripcion) VALUES () ";
 
-        $resultado2 = $conexion->query($sql);
-    }
 }

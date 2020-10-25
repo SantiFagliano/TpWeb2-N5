@@ -12,6 +12,7 @@ $nombreDeImagenDeseado = $_POST["nombre"];
 
 
 if ($_FILES["imagen"]["error"] > 0) {
+
     header("Location: nuevoDios.php");
     exit();
 } else {
@@ -26,7 +27,7 @@ if ($_FILES["imagen"]["error"] > 0) {
         $destino
     );
     $sql = "INSERT INTO Dios(id, nombre, pantheon, rol, url_imagen, descripcion) 
-            VALUES (".$id.",'".$nombreDeImagenDeseado."','".$panteon."','".$rol."','".$destino."','".$descripcion."')";
+            VALUES (".$id.",'".$nombreDeImagenDeseado."','".$panteon."','".$rol."','".$nombreDeImagenCambiado."','".$descripcion."')";
 
     $conexion->query($sql);
     header("Location: index.php");

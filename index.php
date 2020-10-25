@@ -2,8 +2,8 @@
     <main>
         <section class="text-center container-buscador borde">
             <form class="m-auto buscador">
-                <input class="mr-sm-2 p-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="mr-sm-2 p-2" type="search" placeholder="Buscar dios por id, nombre" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             </form>
             <div class="text-white mt-2">
                 <p>¿Desea agregar un nuevo Dios a la lista? <a href="nuevoDios.php" class="text-danger">Presione

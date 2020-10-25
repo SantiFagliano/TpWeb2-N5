@@ -1,9 +1,8 @@
 <?php
 
-function funcionCambiarNombreImagen($nombreDeImagenSubida, $nombreDeImagenDeseado)
-{
-    $imagenTipoArchivo = strtolower(pathinfo($nombreDeImagenSubida, PATHINFO_EXTENSION));
-    switch ($imagenTipoArchivo) {
+function funcionCambiarNombreImagen($nombreDeImagenSubida , $nombreDeImagenDeseado){
+    $imagenTipoArchivo = strtolower(pathinfo($nombreDeImagenSubida,PATHINFO_EXTENSION));
+    switch ($imagenTipoArchivo){
         case "jpg":
             return $nombreDeseadoDeLaImagen = $nombreDeImagenDeseado . ".jpg";
             break;
@@ -13,12 +12,11 @@ function funcionCambiarNombreImagen($nombreDeImagenSubida, $nombreDeImagenDesead
         case "jpeg":
             return $nombreDeseadoDeLaImagen = $nombreDeImagenDeseado . ".jpeg";
             break;
-        case "gif":
-            return $nombreDeseadoDeLaImagen = $nombreDeImagenDeseado . ".gif";
+        case "jfif":
+            return $nombreDeseadoDeLaImagen = $nombreDeImagenDeseado . ".jfif";
             break;
         default:
             echo("Error al subir imagen");
-
             exit();
     }
 }
