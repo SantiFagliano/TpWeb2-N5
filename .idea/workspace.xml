@@ -22,10 +22,8 @@
     <list default="true" id="5fc22da1-22a5-49d1-92a8-9012a1d0118a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consultas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Consultas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursos/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursos/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuevoDios.php" beforeDir="false" afterPath="$PROJECT_DIR$/nuevoDios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diosMostrado.php" beforeDir="false" afterPath="$PROJECT_DIR$/diosMostrado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,8 @@
       <workItem from="1603318852597" duration="221000" />
       <workItem from="1603339185231" duration="1275000" />
       <workItem from="1603414438405" duration="1272000" />
-      <workItem from="1603641209892" duration="8637000" />
+      <workItem from="1603641209892" duration="9234000" />
+      <workItem from="1603751450399" duration="1652000" />
     </task>
     <servers />
   </component>

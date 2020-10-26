@@ -14,7 +14,7 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
         echo '
         <div class="col-12 col-md-6 col-lg-4 m-auto">
             <div class="card mb-3 fondo">
-                <img class="card-img-top" src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '">
+                <a href="diosMostrado.php?id=' . $idDios . '"><img class="card-img-top" src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '"></a>
                 <div class="card-body border-top">
                     <h2 class="card-title text-black">' . $idDios . ' | ' . $nombre . '</h2>
                     <hr>
@@ -42,22 +42,22 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Estas a punto de eliminar un dios
+                                    <div class="modal-header bg-editar">
+                                        <h5 class="modal-title text-white" id="exampleModalLabel">Estas a punto de eliminar un dios
                                         </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body bg-editar text-white">
                                         ¿Estas seguro de que deseas hacerlo?
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                    <div class="modal-footer bg-editar text-white">
+                                        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
                                             Cancelar
                                         </button>
-                                        <p>' . $idDios . '</p>
-                                        <a href="eliminarDios.php?id=' . $idDios . '" type="button" class="btn btn-primary">
+                                        
+                                        <a href="eliminarDios.php?id=' . $idDios . '" type="button" class="btn btn-outline-primary">
                                             Confirmar
                                         </a>
                                     </div>
@@ -129,17 +129,15 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
                                                     onkeyup="contarCaracteres()"></textarea>
                                                 <p class="text-white"><span id="caracteres"></span>/1000</p>
                                             </div>
-                                            <button type="submit" class="btn btn-nuevo">Subir nuevo Dios</button>
+                                            <div class="text-center">
+                                            <button type="submit" class="btn btn-nuevo">Actualizar datos del Dios</button>
+                                            </div>
                                             <div id="mensaje" class="error">
         
                                             </div>
                                         </form>
                                     </div>
-                                    <div class="modal-footer bg-editar">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar
-                                        </button>
-                                        <button type="button" class="btn btn-primary">Guardar Cambios</button>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -147,7 +145,37 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
                 </div>
             </div>
         </div>        
-    ';
+        ';
     }
+}
 
+function mostrarDiosEspecifico($id, $conexion)
+{
+    $sql = "select * from Dios WHERE id ='$id'";
+
+    $resultado = $conexion->query($sql);
+    $row = $resultado->fetch_assoc();
+    $nombre = $row["nombre"];
+    $panteon = $row["pantheon"];
+    $idDios = $row["id"];
+    $rol = $row["rol"];
+    $img = $row["url_imagen"];
+    $descripcion = $row["descripcion"];
+    echo '
+            <section class="row justify-content-center">
+            <article class="col-12 col-md-6 text-center">
+                <img src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '" class="mostrarDios">
+            </article>
+            <article class="col-12 col-md-6 pt-2 ">
+                <h2 class="text-white border-bottom p-2 informacion">' . $nombre . '</h2>
+                <p class="card-text text-white"><strong>*ID:</strong> ' . $idDios . '</p>
+                <p class="card-text text-white"><strong>*Pantehon: </strong><img src="Recursos/img/pantheon/' . $panteon . '.png" alt="' . $panteon . '"
+                                                                                 class="pantheon1">' . $panteon . '</p>
+                <p class="card-text text-white"><strong>*Rol:</strong> <img src="Recursos/img/tipo/' . $rol . '.png" alt="' . $rol . '"
+                                                                            class="pantheon1">' . $rol . '</p>
+                <p class="card-text text-white"><strong>*Descripcion:</strong>' . $descripcion . '
+                </p>
+            </article>
+        </section>
+        ';
 }

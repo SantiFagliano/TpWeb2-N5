@@ -11,7 +11,6 @@
             </div>
         </section>
 
-
         <section class="p-1 container">
             <article class="row">
                 <?php
