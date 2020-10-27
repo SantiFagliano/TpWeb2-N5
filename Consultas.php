@@ -173,7 +173,7 @@ function mostrarDiosEspecifico($id, $conexion)
                                                                                  class="pantheon1">' . $panteon . '</p>
                 <p class="card-text text-white"><strong>*Rol:</strong> <img src="Recursos/img/tipo/' . $rol . '.png" alt="' . $rol . '"
                                                                             class="pantheon1">' . $rol . '</p>
-                <p class="card-text text-white"><strong>*Descripcion:</strong>' . $descripcion . '
+                <p class="card-text text-white"><strong>*Descripcion: </strong>' . $descripcion . '
                 </p>
             </article>
         </section>
