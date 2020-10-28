@@ -17,5 +17,6 @@ values (1,"Neith","Egipcio", "Cazador", "Neith.jpg", "descripcion"),
 (4,"Kukulkan","Maya", "Mago", "Kukulkan.jpg", "Kuku el klan"),
 (5,"Scylla","Griego", "Mago", "Scylla.jfif", "Scylla esta op"),
 (6,"Ymir","Nordico", "Guardian", "Ymir.jpg", "Ymir sirve de todo");
-
+/*update Dios set nombre = "Santiago" where Dios.id = 1;
+update Dios set id = 1 where Dios.id = 12;*/
 select * from Dios;

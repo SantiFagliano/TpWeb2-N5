@@ -11,6 +11,8 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
         $idDios = $row["id"];
         $rol = $row["rol"];
         $img = $row["url_imagen"];
+        $descripcion = $row["descripcion"];
+
         echo '
         <div class="col-12 col-md-6 col-lg-4 m-auto">
             <div class="card mb-3 fondo">
@@ -76,15 +78,14 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
                                         </button>
                                     </div>
                                     <div class="modal-body bg-editar">
-                                        <form action="#" method="POST" enctype="multipart/form-data" name="form"
-                                            id="form">
+                                        <form action="actualizarDios.php?idViejo=' . $idDios . '" method="POST" enctype="multipart/form-data">
                                             <div class="form-group mb-4">
                                                 <input type="text" class="nuevoDios text-white" name="nombre" id="nombre"
-                                                    aria-describedby="emailHelp" placeholder="Ingrese el nombre del dios">
+                                                    aria-describedby="emailHelp" placeholder="Nombre: ' . $nombre . '">
                                             </div>
                                             <div class="form-group mb-4">
                                                 <input type="number" class="nuevoDios" name="id" id="id"
-                                                    placeholder="Ingrese el ID del dios">
+                                                    placeholder="Id: ' . $idDios . '">
                                             </div>
         
                                             <div class="custom-file mb-4">
@@ -105,7 +106,7 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
         
                                             <div class="input-group mb-4">
                                                 <select name="pantheon" class="custom-select nuevoDios" id="pantheon">
-                                                    <option selected disabled>Eliga un Panteon:</option>
+                                                    <option selected disabled>Eliga un Pantheon:</option>
                                                     <option value="Arturiano">Arturiano</option>
                                                     <option value="Celta">Celta</option>
                                                     <option value="Chino">Chino</option>
@@ -126,7 +127,7 @@ function mostrarDiosesDeLaBaseDeDatos($conexion)
                                             <div class="form-group mb-4">
                                                 <textarea class="form-control nuevoDios" name="descripcion" id="descripcion"
                                                     rows="3" placeholder="Ingrese una descripcion del dios" maxlength="1000"
-                                                    onkeyup="contarCaracteres()"></textarea>
+                                                    onkeyup="contarCaracteres()">' . $descripcion . '</textarea>
                                                 <p class="text-white"><span id="caracteres"></span>/1000</p>
                                             </div>
                                             <div class="text-center">
@@ -179,3 +180,4 @@ function mostrarDiosEspecifico($id, $conexion)
         </section>
         ';
 }
+
