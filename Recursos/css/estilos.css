@@ -182,16 +182,24 @@ footer a:hover {
     max-width: 100%;
     height: auto;
 }
-.bg-editar{
+
+.bg-editar {
     background-color: #292929;
 }
-.error{
+
+.error {
     color: #DC143C;
 }
-form[name="form"] input.error, select.error, textarea.error{
-    border-bottom:1px solid crimson;
-    color: #a9a9a9!important;
+
+form[name="form"] input.error, select.error, textarea.error {
+    border-bottom: 1px solid crimson;
+    color: #a9a9a9 !important;
 }
+
+.close {
+    color: #FFF !important;
+}
+
 @media screen and (max-width: 769px) {
     .flex-row {
         flex-direction: column !important;
