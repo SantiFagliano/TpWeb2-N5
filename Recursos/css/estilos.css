@@ -200,6 +200,12 @@ form[name="form"] input.error, select.error, textarea.error {
     color: #FFF !important;
 }
 
+.anchoNuevo {
+    width: 400px;
+    height: auto;
+
+}
+
 @media screen and (max-width: 769px) {
     .flex-row {
         flex-direction: column !important;

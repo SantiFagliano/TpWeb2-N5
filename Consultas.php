@@ -165,7 +165,7 @@ function mostrarDiosEspecifico($id, $conexion)
     echo '
             <section class="row justify-content-center">
             <article class="col-12 col-md-6 text-center">
-                <img src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '" class="mostrarDios">
+                <img src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '" class="mostrarDios anchoNuevo rounded border border-secondary">
             </article>
             <article class="col-12 col-md-6 pt-2 ">
                 <h2 class="text-white border-bottom p-2 informacion">' . $nombre . '</h2>

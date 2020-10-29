@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc22da1-22a5-49d1-92a8-9012a1d0118a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Recursos/buscarDios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consultas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Consultas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursos/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/css/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actualizarDios.php" beforeDir="false" afterPath="$PROJECT_DIR$/actualizarDios.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +106,7 @@
       <workItem from="1603835584491" duration="2830000" />
       <workItem from="1603892200727" duration="6690000" />
       <workItem from="1603925775114" duration="7625000" />
-      <workItem from="1603981130148" duration="705000" />
+      <workItem from="1603981130148" duration="1928000" />
     </task>
     <servers />
   </component>

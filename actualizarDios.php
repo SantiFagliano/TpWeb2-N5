@@ -38,7 +38,7 @@ if ($_FILES["imagen"]["error"] <= 0) {
         $_FILES["imagen"]["tmp_name"],
         $destino
     );
-    
+
     $sql = 'update Dios set url_imagen = "' . $nombreDeImagenCambiado . '" where Dios.id=' . $idViejo;
     $conexion->query($sql);
 }
