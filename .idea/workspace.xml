@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc22da1-22a5-49d1-92a8-9012a1d0118a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursos/buscarDios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consultas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Consultas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursos/buscarDios.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Recursos/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actualizarDios.php" beforeDir="false" afterPath="$PROJECT_DIR$/actualizarDios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +66,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Aplicaciones\wamp64\www\SantiagoFagliano-TP5-Web2\Recursos\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Aplicaciones\wamp64\www\SantiagoFagliano-TP5-Web2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Aplicaciones\wamp64\www\SantiagoFagliano-TP5-Web2\Recursos\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,7 +107,8 @@
       <workItem from="1603835584491" duration="2830000" />
       <workItem from="1603892200727" duration="6690000" />
       <workItem from="1603925775114" duration="7625000" />
-      <workItem from="1603981130148" duration="1928000" />
+      <workItem from="1603981130148" duration="4940000" />
+      <workItem from="1604003195120" duration="2417000" />
     </task>
     <servers />
   </component>
@@ -166,10 +168,10 @@
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603051692246" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603057370474" />
-    <state x="-1126" y="448" key="NewPhpFileDialog" timestamp="1603939655814">
+    <state x="-1126" y="448" key="NewPhpFileDialog" timestamp="1603983052830">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1126" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603939655814" />
+    <state x="-1126" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603983052830" />
     <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603835612575" />
     <state x="-1201" y="245" key="RollbackChangesDialog" timestamp="1603896226599">
       <screen x="-1920" y="0" width="1920" height="1050" />

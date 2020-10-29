@@ -181,4 +181,170 @@ function mostrarDiosEspecifico($id, $conexion)
         ';
 }
 
+function busquedaDios($conexion, $boton, $buscar)
+{
+    if (isset($boton)) {    //trigger button click
+
+        $search = $buscar;
+
+        $query = "select * from Dios where id like '%{$search}%' or nombre like '%{$search}%' or rol like '%{$search}%' or pantheon like '%{$search}%'  ";
+        $resultado = $conexion->query($query);
+        if (mysqli_num_rows($resultado) > 0) {
+            while ($row = $resultado->fetch_assoc()) {
+                $nombre = $row["nombre"];
+                $panteon = $row["pantheon"];
+                $idDios = $row["id"];
+                $rol = $row["rol"];
+                $img = $row["url_imagen"];
+                $descripcion = $row["descripcion"];
+
+                echo '
+        <div class="col-12 col-md-6 col-lg-4 m-auto">
+            <div class="card mb-3 fondo">
+                <a href="diosMostrado.php?id=' . $idDios . '"><img class="card-img-top" src="Recursos/img/dioses/' . $img . '" alt="' . $nombre . '"></a>
+                <div class="card-body border-top">
+                    <h2 class="card-title text-black">' . $idDios . ' | ' . $nombre . '</h2>
+                    <hr>
+                    <p class="card-text font-x-large"><img src="Recursos/img/pantheon/' . $panteon . '.png"
+                            alt="' . $panteon . '" class="pantheon">' . $panteon . '
+                    </p>
+                    <p class="card-text font-x-large"><img src="Recursos/img/tipo/' . $rol . '.png" alt="' . $rol . '"
+                            class="pantheon">' . $rol . '
+                    </p>
+                    <!-- Contenedor de botones -->
+                    <div>
+                        <!-- Boton editar modal -->
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#staticBackdrop' . $idDios . '">
+                            Editar Dios
+                        </button>
+                        <!-- Boton eliminar modal -->
+                        <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#exampleModal' . $idDios . '">
+                            Eliminar Dios
+                        </button>
+        
+                        <!-- Modal Eliminar dios-->
+                        <div class="modal fade" id="exampleModal' . $idDios . '" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-editar">
+                                        <h5 class="modal-title text-white" id="exampleModalLabel">Estas a punto de eliminar un dios
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body bg-editar text-white">
+                                        ¿Estas seguro de que deseas hacerlo?
+                                    </div>
+                                    <div class="modal-footer bg-editar text-white">
+                                        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                                            Cancelar
+                                        </button>
+                                        
+                                        <a href="eliminarDios.php?id=' . $idDios . '" type="button" class="btn btn-outline-primary">
+                                            Confirmar
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal Editar dios-->
+                        <div class="modal fade" id="staticBackdrop' . $idDios . '" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-editar">
+                                        <h5 class="modal-title text-white" id="staticBackdropLabel">Editar Dios</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body bg-editar">
+                                        <form action="actualizarDios.php?idViejo=' . $idDios . '" method="POST" enctype="multipart/form-data">
+                                            <div class="form-group mb-4">
+                                                <input type="text" class="nuevoDios text-white" name="nombre" id="nombre"
+                                                    aria-describedby="emailHelp" placeholder="Nombre: ' . $nombre . '">
+                                            </div>
+                                            <div class="form-group mb-4">
+                                                <input type="number" class="nuevoDios" name="id" id="id"
+                                                    placeholder="Id: ' . $idDios . '">
+                                            </div>
+        
+                                            <div class="custom-file mb-4">
+                                                <input type="file" class="nuevoDiosArchivo" name="imagen" id="imagen"
+                                                    aria-describedby="inputGroupFileAddon01">
+                                            </div>
+        
+                                            <div class="input-group mb-4">
+                                                <select name="rol" class="custom-select nuevoDios" id="rol">
+                                                    <option selected disabled>Eliga un rol:</option>
+                                                    <option value="Guardian">Guardian</option>
+                                                    <option value="Guerrero">Guerrero</option>
+                                                    <option value="Cazador">Cazador</option>
+                                                    <option value="Mago">Mago</option>
+                                                    <option value="Asesino">Asesino</option>
+                                                </select>
+                                            </div>
+        
+                                            <div class="input-group mb-4">
+                                                <select name="pantheon" class="custom-select nuevoDios" id="pantheon">
+                                                    <option selected disabled>Eliga un Pantheon:</option>
+                                                    <option value="Arturiano">Arturiano</option>
+                                                    <option value="Celta">Celta</option>
+                                                    <option value="Chino">Chino</option>
+                                                    <option value="Egipcio">Egipcio</option>
+                                                    <option value="Eslavo">Eslavo</option>
+                                                    <option value="GrandesAntiguos">Grandes Antiguos</option>
+                                                    <option value="Griego">Griego</option>
+                                                    <option value="Hindu">Hindu</option>
+                                                    <option value="Japones">Japones</option>
+                                                    <option value="Maya">Maya</option>
+                                                    <option value="Nordico">Nordico</option>
+                                                    <option value="Polinesio">Polinesio</option>
+                                                    <option value="Romano">Romano</option>
+                                                    <option value="Vudu">Vudu</option>
+                                                    <option value="Yoruba">Yoruba</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mb-4">
+                                                <textarea class="form-control nuevoDios" name="descripcion" id="descripcion"
+                                                    rows="3" placeholder="Ingrese una descripcion del dios" maxlength="1000"
+                                                    onkeyup="contarCaracteres()">' . $descripcion . '</textarea>
+                                                <p class="text-white"><span id="caracteres"></span>/1000</p>
+                                            </div>
+                                            <div class="text-center">
+                                            <button type="submit" class="btn btn-nuevo">Actualizar datos del Dios</button>
+                                            </div>
+                                            <div id="mensaje" class="error">
+        
+                                            </div>
+                                        </form>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        ';
+            }
+        } else {
+            echo "
+            <div class='justify-content-center'>
+                <h2 class='border p-3 text-danger text-center'>
+                    <i class='fas fa-exclamation-circle'></i> No se han encontrado Dioses con ese filtro <i class='fas fa-exclamation-circle'></i>
+                </h2>
+            </div>
+            ";
+        }
+
+    }
+
+}
+
 

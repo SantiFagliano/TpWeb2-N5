@@ -205,7 +205,9 @@ form[name="form"] input.error, select.error, textarea.error {
     height: auto;
 
 }
-
+.busqueda{
+    display: inline-block;
+}
 @media screen and (max-width: 769px) {
     .flex-row {
         flex-direction: column !important;
