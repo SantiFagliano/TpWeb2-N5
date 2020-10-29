@@ -171,13 +171,14 @@ function mostrarDiosEspecifico($id, $conexion)
                 <h2 class="text-white border-bottom p-2 informacion">' . $nombre . '</h2>
                 <p class="card-text text-white"><strong>*ID:</strong> ' . $idDios . '</p>
                 <p class="card-text text-white"><strong>*Pantehon: </strong><img src="Recursos/img/pantheon/' . $panteon . '.png" alt="' . $panteon . '"
-                                                                                 class="pantheon1">' . $panteon . '</p>
+                                                                                 class="pantheon1"> ' . $panteon . '</p>
                 <p class="card-text text-white"><strong>*Rol:</strong> <img src="Recursos/img/tipo/' . $rol . '.png" alt="' . $rol . '"
-                                                                            class="pantheon1">' . $rol . '</p>
+                                                                            class="pantheon1"> ' . $rol . '</p>
                 <p class="card-text text-white"><strong>*Descripcion: </strong>' . $descripcion . '
                 </p>
             </article>
         </section>
         ';
 }
+
 
