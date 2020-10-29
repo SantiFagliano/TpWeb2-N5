@@ -14,9 +14,11 @@
         <section class="p-1 container">
             <article class="row">
                 <?php
+
                 $boton = $_GET['button'];
                 $search = $_GET['buscar'];
                 busquedaDios($conexion, $boton,$search);
+                
                 ?>
             </article>
         </section>
