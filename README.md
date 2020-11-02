@@ -8,7 +8,10 @@
 - The page shows the list of Gods;
 - The page shows a detailed description of each God.;
 
-### Author
+> Comments:
+> To log in the user is 'Admin'
+> and the password is '1234'
 
+### Author
 > Santiago Fagliano
 
