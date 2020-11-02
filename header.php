@@ -46,7 +46,7 @@ require_once("Consultas.php");
                 <h3 class="text-white d-inline-block mr-1">Bienvenido
                     <strong>
                         '.$_SESSION["usuario"].'
-                    </strong>
+                    </strong> 
                 </h3>
 
                 <a href="deslogearse.php">
