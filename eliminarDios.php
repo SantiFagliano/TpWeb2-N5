@@ -17,5 +17,5 @@ unlink("Recursos/img/dioses/".$img);
 
 $sql = "DELETE FROM Dios WHERE id ='$iddios'";
 $conexion->query($sql);
-header("Location: index.php");
+header("Location: indexLogeado.php");
 
