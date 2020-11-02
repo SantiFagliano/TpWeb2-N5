@@ -46,4 +46,4 @@ if (!empty($_POST["id"])) {
     $sql = 'update Dios set id = ' . $_POST["id"] . ' where Dios.id=' . $idViejo;
     $conexion->query($sql);
 }
-header("Location: index.php");
+header("Location: indexLogeado.php");

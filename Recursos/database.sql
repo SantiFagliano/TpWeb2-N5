@@ -4,6 +4,12 @@ create database SmiteDexSantiagoFagliano;
 
 use smitedexsantiagofagliano;
 
+create table Usuario(
+id int not null,
+usuario varchar(20),
+contrasenia text,
+primary key (id)
+);
 create table Dios(
 id int not null,
 nombre varchar(30) not null,
@@ -22,4 +28,6 @@ values (1,"Neith","Egipcio", "Cazador", "Neith.jpg", "Cuando comenzó el tiempo,
 (5,"Scylla","Griego", "Mago", "Scylla.jfif", "Los poemas antiguos advierten de un estrecho canal de agua tan traicionero que la muerte toca a todos los que se acercan. Los marineros deben elegir arriesgar su barco, viajando cerca del monstruoso remolino Caribdis, o abrazar los bancos de rocas donde habita una criatura que, según algunos, está hecha de las pesadillas de todos los hombres. Scylla, la llaman, Horror del mar. Ningún barco que se atreva a navegar en sus aguas sale ileso. Aquellos que se aferran a la supervivencia susurran historias de pánico sobre enormes tentáculos negros con puntas de cabezas de sabueso babeantes que devastan barcos enteros hasta hacer astillas con despiadada precisión. Aunque es su risa, dicen, eso es más horrible como un niño, deleitándose con un asesinato empapado de sangre mientras los hombres son arrastrados al oscuro abismo. Los poetas han tratado de romantizar a esta bestia, de darle algo de humanidad a su monstruosidad. Escriben que una vez fue una hermosa Náyade, agraviada por una sacerdotisa celosa y transformada. Sin embargo, los viejos poemas dicen que nació de esta manera, engendrada por dioses llenos de celos y odio; arrojado al mar para aterrorizar a la humanidad. Ojalá se hubiera quedado en el mar, pero la pesadilla ha llegado a tierra. Arrastrada por tentáculos con cabeza de perro deambula por nuestras calles, nos arranca de nuestras camas y llena la noche de risas inquietantes. Ha venido Scylla y ni siquiera los dioses pueden ayudarnos."),
 (6,"Ymir","Nordico", "Guardian", "Ymir.jpg", "Por lo que se sabe, Ymir lleva muerta hace mucho tiempo. En Midgard, en el norte, se cree que el cráneo de Ymir es el cielo, su carne la tierra y su sangre el mar. Sin embargo, estas afirmaciones podrían ser simplemente la jactancia del orgulloso Odin y sus hermanos, quienes se atribuyen el mérito de haber matado al primer jotunn y haber creado la tierra con las partes de su cuerpo. Al comienzo de los tiempos, el Reino del Fuego, Muspell y el Reino del Hielo, Niflheim se reunieron en el lugar llamado Ginnungagap; el vacío del espacio. El vapor se elevó y se congeló de nuevo, y a partir de esa mezcla primordial, tomó forma Ymir, el Rey de los Gigantes de Hielo. De su cuerpo gotearon otros seres que se convertirían en los antepasados ​​de Dioses, Hombres, Enanos y, por supuesto, Gigantes. Incluso el poderoso Odin debe reclamar a Ymir como su abuelo. Sin embargo, Ymir, como todos los gigantes, era una criatura malvada y dirigió a sus hermanos gigantes contra los dioses. Después de siglos de guerra, Odin y sus hermanos mataron al Rey Gigante y forjaron el mundo a partir de sus restos. Sin embargo, hay otros susurros. Rumores de que Ymir, aunque no era un Dios, seguía siendo un Ser Primordial y, como tal, no podía ser destruido realmente. Quizás solo permanece dormido en Niflheim, el reino del hielo, ansioso por regresar y vengarse de Odin en su familia.");
 
-select * from Dios;
+insert into Usuario(id, usuario, contrasenia)
+values (1, "Admin", "1234");
+select * from Usuario;

@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5fc22da1-22a5-49d1-92a8-9012a1d0118a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Consultas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Recursos/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actualizarDios.php" beforeDir="false" afterPath="$PROJECT_DIR$/actualizarDios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buscarDios.php" beforeDir="false" afterPath="$PROJECT_DIR$/buscarDios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Recursos/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dotadex" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,7 +109,8 @@
       <workItem from="1603892200727" duration="6690000" />
       <workItem from="1603925775114" duration="7625000" />
       <workItem from="1603981130148" duration="4940000" />
-      <workItem from="1604003195120" duration="3273000" />
+      <workItem from="1604003195120" duration="5060000" />
+      <workItem from="1604346727022" duration="5357000" />
     </task>
     <servers />
   </component>
@@ -137,14 +142,16 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603144469468" />
-    <state x="-1736" y="87" key="DiffContextDialog" timestamp="1603896218476">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="184" y="87" key="DiffContextDialog" timestamp="1604348721240">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1736" y="87" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603896218476" />
-    <state x="-1180" y="280" key="FileChooserDialogImpl" timestamp="1603141670546">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="184" y="87" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604348721240" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1604347452061">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603141670546" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604347452061" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603057370475">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -165,15 +172,16 @@
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603051692246" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603057370474" />
-    <state x="-1126" y="448" key="NewPhpFileDialog" timestamp="1603983052830">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1604348897666">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1126" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603983052830" />
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603835612575" />
-    <state x="-1201" y="245" key="RollbackChangesDialog" timestamp="1603896226599">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604348897666" />
+    <state x="719" y="245" key="RollbackChangesDialog" timestamp="1604348722679">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1201" y="245" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603896226599" />
+    <state x="719" y="245" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604348722679" />
     <state x="-1459" y="170" key="SettingsEditor" timestamp="1603894582115">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
