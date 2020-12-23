@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fc22da1-22a5-49d1-92a8-9012a1d0118a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursos/img/dioses/Neith.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eliminarDios.php" beforeDir="false" afterPath="$PROJECT_DIR$/eliminarDios.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dotadex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TpWeb2-Final" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,7 +104,12 @@
       <workItem from="1603925775114" duration="7625000" />
       <workItem from="1603981130148" duration="4940000" />
       <workItem from="1604003195120" duration="5060000" />
-      <workItem from="1604346727022" duration="6280000" />
+      <workItem from="1604346727022" duration="6668000" />
+      <workItem from="1604434943970" duration="125000" />
+      <workItem from="1604586130715" duration="185000" />
+      <workItem from="1604603506945" duration="33000" />
+      <workItem from="1605032954307" duration="1948000" />
+      <workItem from="1605048655325" duration="34000" />
     </task>
     <servers />
   </component>
@@ -143,11 +146,11 @@
     </state>
     <state x="-1736" y="87" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603896218476" />
     <state x="184" y="87" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604348721240" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1604347452061">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1605048687798">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1180" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603141670546" />
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604347452061" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605048687798" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603057370475">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
